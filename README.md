@@ -28,13 +28,18 @@ yst_4_d0   <- adt$X.17 %>% as.numeric %>% na.omit %>% mean
 yst_4_d10  <- adt$X.18 %>% as.numeric %>% na.omit %>% mean
 ```
 
-## extract control variables (days 1 and 10) [for Control 1, 2 and 3]: 
+## Extract control variables (days 1 and 10) [for Control 1, 2 and 3]: 
+
 ```
 ctrl1_d0  <- adt$X.5 %>% as.numeric %>% na.omit %>% mean
 ctrl1_d10 <- adt$X.6 %>% as.numeric %>% na.omit %>% mean
 ```
-
-# Control3 variables (day1 and 10) 
+### Control2 variables (day1 and 10) 
+```
+ctrl2_d0  <- adt$X.13 %>% as.numeric %>% na.omit %>% mean
+ctrl2_d10 <- adt$X.14 %>% as.numeric %>% na.omit %>% mean
+```
+### Control3  
 ```
 ctrl3_d0  <- adt$X.21 %>% as.numeric %>% na.omit %>% mean
 ctrl3_d10 <- adt$X.22 %>% as.numeric %>% na.omit %>% mean
