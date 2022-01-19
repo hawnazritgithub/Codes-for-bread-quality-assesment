@@ -94,7 +94,8 @@ yst_0  <- adt$X.1 %>% as.numeric %>% na.omit %>% mean   # mean of day 0 yeast va
 yst_10 <- adt$X.2 %>% as.numeric %>% na.omit %>% mean   # mean of day 10 yeast variable
 ```
 ## yst 2%
-```yst_2_d0  <- adt$X.9 %>% as.numeric %>% na.omit %>% mean
+```
+yst_2_d0  <- adt$X.9 %>% as.numeric %>% na.omit %>% mean
 yst_2_d10 <- adt$X.10 %>% as.numeric %>% na.omit %>% mean
 ```
 
