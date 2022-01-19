@@ -85,7 +85,7 @@ adt <- as.data.frame(x)  # the dataFrame
 ```
 
 ## calculate means
-yeast variable day 0 and 10
+## yeast variable day 0 and 10
 
 ## Extract yeast Variables  [yst_0, yst_2, and yst_4]
 
