@@ -19,7 +19,8 @@ dataFrames <- function(df){
   Ctrl_3  <- df$Ctrl_3 %>% as.numeric %>% na.omit %>% mean}
 ```
 ## Bind means
-```as.numeric(c(yst_1, Ctr_l, yst_2, Ctrl_2,yst_3,Ctrl_3)) ->> Means
+```
+as.numeric(c(yst_1, Ctr_l, yst_2, Ctrl_2,yst_3,Ctrl_3)) ->> Means
 ```
 ## Generate Standard Errors from the means.
 ``` plotrix::std.error(df) %>% as.data.frame -> stdErors
