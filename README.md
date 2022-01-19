@@ -1,5 +1,5 @@
 # Codes-for-bread-quality-assesment
-## The following codes were written for investigating the difference among different treatments in both day 0 and 10.
+## The following codes were written for making plots to investigate the difference among different treatments in both day 0 and 10.
 # Walkthrough the code files
 This repository contains R code to plot various bread quality assessment types. To start working on it first load your dataset and convert it to a dataframe using: 
 ## Select file 1 and file 2 for comparisons
@@ -76,7 +76,7 @@ print(plt)}
 
 ```
 
-## The following codes were written for investigating the difference between bread quality in day 0 and 10.
+## The following codes were written for making plots to show the difference between bread quality in day 0 and 10.
 # Walkthrough the code files
 
 ```x <- read.csv(file.choose(), header=T)
